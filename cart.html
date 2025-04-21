@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meublishop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cart.css">
+    
+</head>
+<body>
+    <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html">
+            <img src="/image/lo.png" alt="Logo" class="logo" height="40">
+          </a>
+      
+          <!-- Bouton responsive -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Liens de navigation -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">produits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projets">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="cart.html" class="nav-link" id="cart-link">
+                  <i class="fas fa-cart-plus me-1"></i>
+                  Panier (<span id="cart-count">0</span>)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    
+    <main>
+        <section class="cart-section">
+            <h2>Votre panier</h2>
+            <div id="cart-items">
+               
+            </div>
+            <p id="total-price"></p>
+            <button class="checkout">Passe à la caisse</button>
+        </section>
+    </main>
+    
+
+
+
+    <footer>
+        <p>© 2025 chez MeubliShop, vous saurez toujours la bienvenue.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <script src="../js/cart.js"></script>
+</body>
+</html>

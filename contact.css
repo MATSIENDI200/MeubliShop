@@ -1,0 +1,35 @@
+.contact-section {
+    background: #f8f9fa;
+  }
+  
+  .contact-form {
+    background: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+  }
+  
+  .contact-form button {
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  

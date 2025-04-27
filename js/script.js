@@ -1,8 +1,8 @@
 const products =  [
     {
         id: 1,
-        name: "Produit 1",
-        price: 29.99,
+        name: "Canapé belge",
+        price: 29000,
         image: "/image/m1.jpg",
         description: "Ceci est une description du Produit 1. Il est de haute qualité et répond à tous vos besoins.",
         details: "Détails: Taille - M, Couleur - Rouge, Matériau - Coton.",
@@ -10,8 +10,8 @@ const products =  [
     },
     {
         id: 2,
-        name: "Produit 2",
-        price: 39.99,
+        name: "Mini canapé rose et sa table assortie",
+        price: 39000,
         image: "/image/m2.jpg",
         description: "Ceci est une description du Produit 2. Un produit exceptionnel pour les amateurs de confort.",
         details: "Détails: Taille - L, Couleur - Bleu, Matériau - Polyester.",
@@ -19,8 +19,8 @@ const products =  [
     },
     {
         id: 3,
-        name: "Produit 3",
-        price: 49.99,
+        name: "Chaise élégante ",
+        price: 49000,
         image: "/image/m3.jpg",
         description: "Ceci est une description du Produit 3. Parfait pour toutes les occasions.",
         details: "Détails: Taille - S, Couleur - Vert, Matériau - Lin.",
@@ -28,8 +28,8 @@ const products =  [
     },
     {
         id: 4,
-        name: "Produit 4",
-        price: 59.99,
+        name: "Canapé forme de lit",
+        price: 59000,
         image: "/image/m4.jpg",
         description: "Ceci est une description du Produit 4. Idéal pour ceux qui recherchent le meilleur.",
         details: "Détails: Taille - XL, Couleur - Noir, Matériau - Soie.",
@@ -37,7 +37,7 @@ const products =  [
     },
     {
         id: 5,
-        name: "Produit 5",
+        name: "Cousin lemon + Mini table",
         price: 200.99,
         image: "/image/m5.jpg",
         description: "Ceci est une description du Produit 5. Idéal pour ceux qui recherchent le meilleur.",
@@ -46,7 +46,7 @@ const products =  [
     },
     {
         id: 6,
-        name: "Produit 6",
+        name: " Chaise blanche en verre ",
         price: 250.99,
         image: "/image/m6.jpg",
         description: "Ceci est une description du Produit 5. Idéal pour ceux qui recherchent le meilleur.",
@@ -55,7 +55,7 @@ const products =  [
     },
     {
         id: 7,
-        name: "Produit 7",
+        name: "Salon entier ( table , horloge ... )",
         price: 175.77,
         image: "/image/m7.jpg",
         description: "Ceci est une description du Produit 5. Idéal pour ceux qui recherchent le meilleur.",
@@ -64,7 +64,7 @@ const products =  [
     },
     {
         id: 8,
-        name: "Produit 8",
+        name: "Chaise confortable bleue",
         price: 120.99,
         image: "/image/m8.jpg",
         description: "Ceci est une description du Produit 5. Idéal pour ceux qui recherchent le meilleur.",
@@ -73,7 +73,7 @@ const products =  [
     },
     {
         id: 9,
-        name: "Produit 9",
+        name: "Canapé Aesthetic",
         price: 300.000,
         image: "/image/m9.jpg",
         description: "Ceci est une description du Produit 5. Idéal pour ceux qui recherchent le meilleur.",
@@ -82,7 +82,7 @@ const products =  [
     },
     {
         id: 10,
-        name: "Produit 10",
+        name: "Canapé orange",
         price: 200.000,
         image: "/image/m10.jpg",
         description: "Ceci est une description du Produit 5. Idéal pour ceux qui recherchent le meilleur.",

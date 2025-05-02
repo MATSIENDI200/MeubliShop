@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://meubli-shop-98vv.vercel.app/6324624_10.xml
